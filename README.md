@@ -43,8 +43,8 @@ Below you can find an example of an input file containing a few assembly instruc
 `input.txt`
 ```nasm
 addi $R1 $R0 30
-sw $R1 0 $R0
-lw $R3 0 $R0
+sw   $R1 0 $R0
+lw   $R3 0 $R0
 ```
 
 `output.txt`
