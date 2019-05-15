@@ -1,9 +1,10 @@
 # MIPS-32bit instruction encoder
-This repository contains the C implementation of a 32-bit assembly instruction encoder based on the MIPS processor.
+This repository contains the C implementation of a 32-bit assembly instruction encoder for MIPS processors.
 The program is indeed able to encode in machine code a set of assembly instructions reading the input data from the "input.txt" file and printing the result into the "output.txt" file.
 
 ## MIPS instructions
 The MIPS instruction subset is described in the following table:
+
 | Instruction | Syntax             | Operation                      | Description                      |
 |-------------|:-------------------|:-------------------------------|:---------------------------------|
 | add         | add \$R1 \$R2 \$R3 | \$R1 = \$R2 + \$R3             | Addition with overflow           |
